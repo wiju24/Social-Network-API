@@ -25,7 +25,7 @@ router.route('/:id')
 
 // ----- '/:id' route for specific reactions ----- //
 
-router.route('/:id/reaction/:reactionId')
+router.route('/:id/reactions/:reactionId')
     .post(insertReaction)
     .delete(removeReaction);
 
